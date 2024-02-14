@@ -1,4 +1,4 @@
-繳交資料
+資料
 -
 - URL :
     - http://ec2-35-78-182-210.ap-northeast-1.compute.amazonaws.com:8080/
@@ -9,10 +9,10 @@
     - postman
     - docker-compose.yml
 - frontend
-    - tech stack : Go, Gin, Gorm, MySQL
+    - tech stack : HTML, Vue(by cdn)
     - GitHub: https://github.com/cooper-car/contract_frontend
 - backend
-    - tech stack : HTML, Vue(by cdn)
+    - tech stack : Go, Gin, Gorm, MySQL
     - GitHub: https://github.com/cooper-car/contract_backend
 - Infrastructure
     - tech stack : AWS EC2, Docker
@@ -20,7 +20,7 @@
     - 網站前後端分離
     - 網站容器化
     
-    
+
 EC2上容器化
 - 
 ![Alt text](images/container.jpg)
