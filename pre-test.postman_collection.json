@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "057d407d-2b51-4c6d-beb8-addcebf29d54",
+		"name": "pre-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3457242"
+	},
+	"item": [
+		{
+			"name": "/api/member/mock/data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-35-78-182-210.ap-northeast-1.compute.amazonaws.com:3000/api/member/mock/data",
+					"protocol": "http",
+					"host": [
+						"ec2-35-78-182-210",
+						"ap-northeast-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"member",
+						"mock",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/members/:id/transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-35-78-182-210.ap-northeast-1.compute.amazonaws.com:3000/api/members/:id/transactions?start_datetime=2023-02-14T11:39:00&end_datetime=2024-02-14T11:39:00",
+					"protocol": "http",
+					"host": [
+						"ec2-35-78-182-210",
+						"ap-northeast-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"members",
+						":id",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "start_datetime",
+							"value": "2023-02-14T11:39:00"
+						},
+						{
+							"key": "end_datetime",
+							"value": "2024-02-14T11:39:00"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1",
+							"description": "all: 表示取全部人資料\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/members",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-35-78-182-210.ap-northeast-1.compute.amazonaws.com:3000/api/members",
+					"protocol": "http",
+					"host": [
+						"ec2-35-78-182-210",
+						"ap-northeast-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"members"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/member",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"ryan is good\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-35-78-182-210.ap-northeast-1.compute.amazonaws.com:3000/api/member",
+					"protocol": "http",
+					"host": [
+						"ec2-35-78-182-210",
+						"ap-northeast-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"member"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/member/:id",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Cooper\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://ec2-35-78-182-210.ap-northeast-1.compute.amazonaws.com:3000/api/member/:id",
+					"protocol": "http",
+					"host": [
+						"ec2-35-78-182-210",
+						"ap-northeast-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"member",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1002"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
