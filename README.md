@@ -23,7 +23,7 @@
     
 EC2上容器化
 - 
-![Alt text](images/containerization.jpg)
+![Alt text](images/container.jpg)
 
 網站截圖
 -
