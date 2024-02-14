@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "/api/member/mock/data",
+			"name": "產生假資料",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -33,7 +33,7 @@
 			"response": []
 		},
 		{
-			"name": "/api/members/:id/transactions",
+			"name": "取得 會員交易紀錄",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -76,7 +76,7 @@
 			"response": []
 		},
 		{
-			"name": "/api/members",
+			"name": "取得 所有會員資料",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -100,7 +100,7 @@
 			"response": []
 		},
 		{
-			"name": "/api/member",
+			"name": "新增 會員資料",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -133,7 +133,7 @@
 			"response": []
 		},
 		{
-			"name": "/api/member/:id",
+			"name": "修改 會員資料",
 			"request": {
 				"method": "PATCH",
 				"header": [],
