@@ -5,7 +5,7 @@
     - 請用chrome或者brave開啟
 - data :
     - GitHub: https://github.com/cooper-car/contract_data
-    - database (schema+data)
+    - [database (schema+data)](<https://github.com/cooper-car/contract_data/tree/main/database>)
     - postman
     - docker-compose.yml
 - frontend
