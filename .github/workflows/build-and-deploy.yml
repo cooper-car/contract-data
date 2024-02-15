@@ -1,0 +1,10 @@
+name: test
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test build
+        run: echo "Building the app"
