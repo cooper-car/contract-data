@@ -30,21 +30,16 @@ services:
       - app_network    
 
   frontend:
-    image: nginx:stable-alpine
+    image: coopercar/contract_frontend:1.0
     ports:
       - "8080:80"
     environment:
       - TZ=Asia/Taipei
-    volumes:
-      - ./contract_frontend:/var/www/html
-      - ./nginx.conf:/etc/nginx/nginx.conf
     networks:
       - app_network
 
   backend:
-    build:
-      context: ./contract_backend
-      dockerfile: Dockerfile
+    image: coopercar/contract_backend:1.0
     ports:
       - "3000:3000"
     environment:
