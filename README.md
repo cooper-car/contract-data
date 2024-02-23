@@ -1,7 +1,7 @@
 資料
 -
 - URL :
-    - http://ec2-35-78-182-210.ap-northeast-1.compute.amazonaws.com:8080/
+    - http://ec2-43-206-130-224.ap-northeast-1.compute.amazonaws.com:8080/
     - 請用chrome或者brave開啟
 - data :
     - GitHub: https://github.com/cooper-car/contract_data
