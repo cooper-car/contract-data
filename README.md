@@ -9,10 +9,10 @@
     - docker-compose.yml
 - frontend
     - tech stack : HTML, Vue(by cdn)
-    - GitHub: https://github.com/cooper-car/contract_frontend
+    - GitHub: https://github.com/cooper-car/contract-frontend
 - backend
     - tech stack : Go, Gin, Gorm, MySQL
-    - GitHub: https://github.com/cooper-car/contract_backend
+    - GitHub: https://github.com/cooper-car/contract-backend
 - Infrastructure
     - tech stack : AWS EC2, Docker
 - Note
