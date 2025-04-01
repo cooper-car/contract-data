@@ -1,9 +1,8 @@
 資料
 -
-- URL :
+- URL
     - ~~http://ec2-43-206-130-224.ap-northeast-1.compute.amazonaws.com:8080/~~ (因無免費額度先關閉)
-- data :
-    - GitHub: https://github.com/cooper-car/contract-data
+- data
     - [database (schema+data)](<https://github.com/cooper-car/contract_data/tree/main/database>)
     - postman
     - docker-compose.yml
